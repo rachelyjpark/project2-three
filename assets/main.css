@@ -23,7 +23,7 @@ z-index: 13;
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #BCC29D;
+background: #777777;
 	width: 100vw;
 	height: 100vh;
 	clip-path: polygon(0px 0px, 60% 0%, 60% 67%, 0px 83%);
@@ -38,13 +38,14 @@ z-index: 13;
 font-weight: 400;
 font-style: normal;
 padding-right: 0%;
+color: white;
 }
 
 #top-right {
 	position: fixed;
 	top: 0;
 	right: 0;
-	background: #4F5631;
+	background: black;
 	width: 50vw;
 	height: 100vh;
 	clip-path: polygon(143px 0px, 100% 0%, 100% 100%, 144px 100%);
@@ -55,7 +56,7 @@ padding-right: 0%;
 position: fixed;
 bottom: 0;
 left: 0;
-background: #C7C2B7;
+  background-color: #b3b3b3;
 width: 100vw;
 height: 100vh;
 clip-path: polygon(0px 680px, 60% 67%, 75% 100%, 0px 100%);
@@ -64,14 +65,14 @@ clip-path: polygon(0px 680px, 60% 67%, 75% 100%, 0px 100%);
 
 #par-2 {
 	position: fixed;
-	top: 300px;
+	top: 100px;
 	left: 900px;
-	padding-right: 15%;
+	padding-right: 2%;
 	line-height: 1.8;
 		font-family: linotype-sabon,sans-serif;
 font-weight: 400;
 font-style: normal;
-transform: skewY(50deg);
+color: white;
 
 }
 
@@ -97,6 +98,7 @@ transform: skewY(50deg);
 	transform: rotate(-128deg);
 	z-index: 12;
 }
+
 
 
 @media (max-width: 600px) {
